@@ -23,7 +23,7 @@ export default function Hero({ onSearch }) {
         <h1 style={styles.heading}>
           Find Your Perfect{' '}
           <span style={styles.highlight}>College</span>
-          <br className="hide-mobile" /> in South India
+          <br className="hide-mobile" /> in Soth India
         </h1>
 
         <p style={styles.sub}>
