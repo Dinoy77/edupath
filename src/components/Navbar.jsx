@@ -71,7 +71,7 @@ export default function Navbar({ onCourseSelect = () => { } }) {
         {/* Logo */}
         <div style={{ ...styles.logo, cursor: 'pointer' }} onClick={() => navigate('/')}>
           <span style={styles.logoIcon}>🎓</span>
-          <span style={styles.logoText}>Edu<span style={{ color: 'var(--accent)' }}>Path</span></span>
+          <span style={styles.logoText}>Vidhya<span style={{ color: 'var(--accent)' }}>byasam</span></span>
           <span style={styles.logoSub} className="hide-mobile">India</span>
         </div>
 

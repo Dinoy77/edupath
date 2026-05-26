@@ -5,7 +5,7 @@ export default function Footer() {
     <footer style={styles.footer}>
       <div style={styles.inner}>
         <div style={styles.brand}>
-          <div style={styles.logo}>🎓 EduPath <span style={{ color: 'var(--accent)' }}>India</span></div>
+          <div style={styles.logo}>🎓 Vidhya<span style={{ color: 'var(--accent)' }}>byasam</span></div>
           <p style={styles.tagline}>Helping students find their dream colleges across South India.</p>
           <div style={styles.social}>
             {['📘', '🐦', '📸', '▶️'].map((icon, i) => (

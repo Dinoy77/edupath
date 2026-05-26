@@ -26,7 +26,7 @@ export default function AuthModal({ mode, onClose, onSwitch }) {
     <div style={styles.overlay} onClick={onClose}>
       <div style={styles.modal} onClick={e => e.stopPropagation()} className="animate-fadeUp">
         <div style={styles.header}>
-          <div style={styles.logoMini}>🎓 EduPath India</div>
+          <div style={styles.logoMini}>🎓 Vidhyabyasam </div>
           <button style={styles.closeBtn} onClick={onClose}>✕</button>
         </div>
 
