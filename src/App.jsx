@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
 import Navbar from './components/Navbar';
 import NotificationBanner from './components/NotificationBanner';
-import AIBot from './components/AIBot';
 import Home from './pages/Home';
 import CollegeDetail from './pages/CollegeDetail';
 
@@ -26,7 +25,6 @@ export default function App() {
             <Route path="/college/:id" element={<CollegeDetail />} />
           </Routes>
         </main>
-        <AIBot />
       </AuthProvider>
     </BrowserRouter>
   );
